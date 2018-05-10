@@ -2,7 +2,7 @@
 
 import tushare as ts
 
-ts.get_hist_data('600848')
+print(ts.get_hist_data('600848'))
 
 #print (dir(ts))
 
