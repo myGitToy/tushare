@@ -105,3 +105,6 @@ mysql.py
 
 #shock file
 data/
+
+#test
+test.py
