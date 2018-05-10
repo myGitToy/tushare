@@ -104,7 +104,7 @@ ENV/
 mysql.py
 
 #shock file
-data/
+/data/*
 
 #test
 test.py
