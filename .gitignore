@@ -102,6 +102,7 @@ ENV/
 
 #MYSQL connection
 mysql.py
+mysql_df.py
 
 #shock file
 /data/*

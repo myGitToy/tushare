@@ -193,8 +193,12 @@ def load_today_all():
         #补0后的代码
         idx = "%06d" % i
         #当前价格
-        trade=float(df.loc[i,['trade']])
-        #print(trade)
+        
+        try:
+            trade=float(df.loc[i,['trade']])
+        except :
+            trade=0
+        #print("%s交易价格为%s" % (idx,trade))
         if trade==0:
             #未交易，不写入代码列表
             print('%s未交易%s' % (idx,trade))
